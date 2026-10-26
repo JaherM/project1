@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+a{
+    width: auto;
+    margin: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif
+
+}
+@media screen and (min-width: 480px) {
+th,td{
+    border: 1px solid;
+    padding:12px;
+    text-align: left;
+    color:black;
+}
+}
+@media screen and (min-width: 480px) {
+img{
+    width: 450px;
+    height: auto;
+    display:block;
+    margin:20px auto;
+    border-radius: 8px;
+}
+}
+p{
+    size: 20px;
+}
+hr{
+    border-color: rgb(148, 102, 17);
+}
+h1{
+    color: grey;
+}
